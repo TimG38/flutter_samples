@@ -52,7 +52,15 @@ class _MyHomePageState extends State<MyHomePage> {
     super.initState();
     print('initState');
   }
-
+  
+  // Scaffold
+  //   Builder
+  //     NestedScrollView
+  //       controller: PrimaryScrollController + listener1
+  //       headerSliverBuilder: SliverAppBar
+  //       body: RefreshIndicator
+  //         child: NotificationListener<ScrollNotification>
+  //           child: CustomScrollView
   @override
   Widget build(BuildContext context) {
     return Scaffold(
